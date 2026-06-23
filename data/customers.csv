@@ -1,0 +1,9 @@
+customer_id,name,city,country,signup_date
+1,Alice Johnson,Stockholm,Sweden,2024-01-15
+2,Bob Smith,London,UK,2024-02-03
+3,Carla Ruiz,Madrid,Spain,2024-02-20
+4,David Lee,Berlin,Germany,2024-03-01
+5,Eva Andersson,Oslo,Norway,2024-03-18
+6,Frank Miller,Paris,France,2024-04-05
+7,Grace Kim,Amsterdam,Netherlands,2024-04-22
+8,Henrik Dahl,Copenhagen,Denmark,2024-05-10

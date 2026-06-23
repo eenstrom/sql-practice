@@ -1,0 +1,16 @@
+order_id,customer_id,order_date,product,category,amount,status
+1001,1,2024-06-01,Laptop,Electronics,1299.00,completed
+1002,2,2024-06-02,Desk Chair,Furniture,249.50,completed
+1003,1,2024-06-03,Monitor,Electronics,399.00,completed
+1004,3,2024-06-04,Notebook,Office,12.99,completed
+1005,4,2024-06-05,Standing Desk,Furniture,599.00,pending
+1006,2,2024-06-06,Keyboard,Electronics,89.00,completed
+1007,5,2024-06-07,Webcam,Electronics,79.99,completed
+1008,3,2024-06-08,Pen Set,Office,24.50,cancelled
+1009,6,2024-06-09,Headphones,Electronics,199.00,completed
+1010,7,2024-06-10,Bookshelf,Furniture,149.00,completed
+1011,1,2024-06-11,USB Hub,Electronics,45.00,completed
+1012,8,2024-06-12,Desk Lamp,Furniture,39.99,pending
+1013,4,2024-06-13,Mouse,Electronics,59.00,completed
+1014,5,2024-06-14,Planner,Office,18.00,completed
+1015,6,2024-06-15,Monitor Arm,Furniture,89.00,completed

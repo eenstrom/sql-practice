@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw CSV data loaded into DuckDB
+    schema: main
+    tables:
+      - name: customers
+        description: Customer master data
+        columns:
+          - name: customer_id
+            tests:
+              - unique
+              - not_null
+
+      - name: orders
+        description: Order line items
+        columns:
+          - name: order_id
+            tests:
+              - unique
+              - not_null
+          - name: customer_id
+            tests:
+              - not_null
+              - relationships:
+                  arguments:
+                    to: source('raw', 'customers')
+                    field: customer_id
