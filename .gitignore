@@ -4,3 +4,5 @@ logs/
 *.duckdb
 *.duckdb.wal
 .DS_Store
+.prefect/
+.streamlit/secrets.toml

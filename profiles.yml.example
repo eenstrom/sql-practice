@@ -1,0 +1,10 @@
+# Copy to ~/.dbt/profiles.yml
+# Path is relative to the dbt project directory when you run dbt from project root.
+
+sql_practice:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: analytics.duckdb
+      schema: main
